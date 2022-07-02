@@ -1,19 +1,16 @@
 import './App.css';
-import {BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route, Link, useHref } from 'react-router-dom'
 import Home from './Components/Home';
 import About from './Components/About';
 import Portfolio from './Components/Portfolio';
 import ErrorPage from './Components/ErrorPage';
-
-import coverImage from './Assets/Cover/cityconnectblue.jpg';
+import Footer from './Components/Footer';
 
 function App() {
   return (
-    // <div style={{ backgroundImage: `url(${ coverImage })` }}>
     <Router>
-      {/* <img src={coverImage} className="my-2" style={{ width: "100%" }}/> */}
-      <h1>David Briagas</h1>
-      <nav>
+      <h1>DAVID BRIAGAS</h1>
+      <nav style={{ width: "100%" }}>
         <Link to='/'> Home </Link>
         <Link to='/about'> About </Link>
         <Link to='/portfolio'> Portfolio </Link>
@@ -24,8 +21,9 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
+    {/* <Footer></Footer> */}
     </Router>
-    // </div>
+    
   );
 }
 

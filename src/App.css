@@ -28,6 +28,10 @@
   color: #61dafb;
 } */
 
+:root {
+  font-family: 'lucida console';
+}
+
 body {
   margin: 0;
   background-image: url(/src/Assets/Cover/cityconnectblue.jpg);
@@ -45,6 +49,11 @@ a {
   color: white;
   text-decoration: none;
 }
+
+/* footer {
+  background-image: url(/src/Assets/Cover/cityconnectnav.jpg);
+  background-size: 100% 30px 30px;
+} */
 
 @keyframes App-logo-spin {
   from {
