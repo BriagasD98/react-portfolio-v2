@@ -5,9 +5,13 @@ import About from './Components/About';
 import Portfolio from './Components/Portfolio';
 import ErrorPage from './Components/ErrorPage';
 
+import coverImage from './Assets/Cover/cityconnectblue.jpg';
+
 function App() {
   return (
+    // <div style={{ backgroundImage: `url(${ coverImage })` }}>
     <Router>
+      {/* <img src={coverImage} className="my-2" style={{ width: "100%" }}/> */}
       <h1>David Briagas</h1>
       <nav>
         <Link to='/'> Home </Link>
@@ -21,6 +25,7 @@ function App() {
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </Router>
+    // </div>
   );
 }
 
