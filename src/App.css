@@ -28,8 +28,11 @@
   color: #61dafb;
 } */
 
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
 :root {
-  font-family: 'lucida console';
+  /* font-family: 'lucida console'; */
+  font-family: 'Share Tech', sans-serif;
 }
 
 body {
