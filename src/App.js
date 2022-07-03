@@ -10,7 +10,7 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <Router>
-      <h1>DAVID BRIAGAS</h1>
+      <h1 className='header'>DAVID BRIAGAS</h1>
       <Nav></Nav>
       <Routes>
         <Route path="/" element={<Home />} />
