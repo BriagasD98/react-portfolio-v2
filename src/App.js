@@ -1,5 +1,6 @@
 import './App.css';
 import {BrowserRouter as Router, Routes, Route, Link, useHref } from 'react-router-dom'
+import Nav from './Components/Nav';
 import Home from './Components/Home';
 import About from './Components/About';
 import Portfolio from './Components/Portfolio';
@@ -10,11 +11,7 @@ function App() {
   return (
     <Router>
       <h1>DAVID BRIAGAS</h1>
-      <nav style={{ width: "100%" }}>
-        <Link to='/'> Home </Link>
-        <Link to='/about'> About </Link>
-        <Link to='/portfolio'> Portfolio </Link>
-      </nav>
+      <Nav></Nav>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
