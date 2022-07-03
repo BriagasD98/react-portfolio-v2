@@ -41,6 +41,7 @@ body {
 
 h1 {
   color: white;
+  letter-spacing: 4px;
 }
 
 div {
@@ -48,8 +49,25 @@ div {
 }
 
 a {
+  position: relative;
   color: white;
   text-decoration: none;
+  letter-spacing: 1px;
+}
+
+a:after {
+  content: '';
+  position: absolute;
+  background-color: orange;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: 0;
+  transition: 0.3s;
+}
+
+a:hover:after {
+  width: 100%;
 }
 
 nav {
