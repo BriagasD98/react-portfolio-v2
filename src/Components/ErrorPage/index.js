@@ -9,7 +9,7 @@ function ErrorPage() {
       404 PAGE NOT FOUND! Very Strange indeed...
       </div>
       <div className='dustin container'>
-        <img src={Dustin} alt="Dustin" />
+        <img className='dustin' src={Dustin} alt="Dustin" />
         <div className='quote'>"WHY ARE YOU KEEPING THIS CURIOSITY DOOR LOCKED?"</div>
       </div>
     </div>
