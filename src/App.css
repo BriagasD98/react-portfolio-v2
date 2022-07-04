@@ -68,6 +68,27 @@ div {
   font-size: x-large;
 }
 
+.tiles1 {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  position: relative;
+  left: 10%;
+}
+
+.icon {
+  height: 110px;
+  width: 110px;
+}
+
+.card p {
+  background-color: rgba(0,0,0,0.2);
+  padding: 10px;
+  border-radius: 30px;
+  text-align: center;
+}
+
 nav a {
   position: relative;
   color: white;

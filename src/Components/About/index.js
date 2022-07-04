@@ -1,11 +1,20 @@
 import React from 'react'
 import David from '../../Assets/Images/davidbheadshot.JPG'
+import emailIcon from '../../Assets/Images/email-icon.png'
+import ghIcon from '../../Assets/Images/Github-icon.png'
+import liIcon from '../../Assets/Images/linkedin-icon.png'
 
 function About() {
   return (
         <div className='container2'>
 
           <div className='card'>
+
+            <div className='tiles1'>
+              <img className='icon' src={emailIcon} alt="Email" />
+              <img className='icon' src={ghIcon} alt="Github" />
+              <img className='icon' src={liIcon} alt="LinkedIn" />
+            </div>
             <img className='david' src={David} alt="David" />
           </div>
 
