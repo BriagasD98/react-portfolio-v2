@@ -3,10 +3,15 @@ import David from '../../Assets/Images/davidbheadshot.JPG'
 import emailIcon from '../../Assets/Images/email-icon.png'
 import ghIcon from '../../Assets/Images/Github-icon.png'
 import liIcon from '../../Assets/Images/linkedin-icon.png'
+import { motion } from 'framer-motion'
 
 function About() {
   return (
-        <div className='container2'>
+        <motion.div className='container2'
+        initial={{width: 0}}
+        animate={{width: "100vw"}}
+        exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
+        >
 
           <div className='card'>
 
@@ -39,7 +44,7 @@ function About() {
                          of a tenacious & enthusiastic team.</p>
           </div>
 
-        </div>
+        </motion.div>
   )
 }
 
