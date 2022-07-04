@@ -9,6 +9,11 @@ body {
   background-image: url(/src/Assets/Cover/cityconnectblue.jpg);
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+}
+
 h1 {
   color: white;
   letter-spacing: 4px;
@@ -53,8 +58,6 @@ div {
   margin: 8px 0 8px 0;
 }
 
-/* Fix on hover animation!!! */
-
 .iconlist {
   display: flex;
   justify-content: space-evenly;
@@ -76,8 +79,6 @@ div {
 .icon img:hover:after {
   width: 20%;
 }
-
-/* ^^^Fix on hover animation!!!^^^^ */
 
 .card p {
   background-color: rgba(0,0,0,0.2);
@@ -114,11 +115,6 @@ nav {
   display: flex;
   justify-content: space-evenly;
   font-size: xx-large;
-}
-
-.header {
-  display: flex;
-  justify-content: center;
 }
 
 .container {
@@ -161,6 +157,25 @@ left: 50%;
 transform: translate(-50%, -50%);
 font-size: xx-large;
 }
+
+/* Portfolio Styling */
+.container2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 450px;
+}
+
+.card2 {
+height: 225px;
+color: beige;
+width: 30%;
+margin: auto;
+border: 5px;
+border-color: orange;
+}
+
 /* footer {
   background-image: url(/src/Assets/Cover/cityconnectnav.jpg);
   background-size: 100% 30px 30px;
