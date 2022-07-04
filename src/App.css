@@ -86,6 +86,14 @@ nav {
   justify-content: center;
 }
 
+.navbar {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0,0,0,0.2);
+  margin-top: 10px;
+  padding-bottom: 12px;
+}
+
 .errorpage {
   display: flex;
   justify-content: space-evenly;
