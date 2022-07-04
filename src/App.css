@@ -172,8 +172,28 @@ height: 225px;
 color: beige;
 width: 30%;
 margin: auto;
-border: 5px;
+border: 30px;
 border-color: orange;
+border-radius: 30px;
+}
+
+.box1 {
+  background-image: url(/src/Assets/Images/happycat.PNG);
+}
+.box2 {
+  background-image: url(/src/Assets/Images/happycat.PNG);
+}
+.box3 {
+  background-image: url(/src/Assets/Images/happycat.PNG);
+}
+.box4 {
+  background-image: url(/src/Assets/Images/happycat.PNG);
+}
+.box5 {
+  background-image: url(/src/Assets/Images/happycat.PNG);
+}
+.box6 {
+  background-image: url(/src/Assets/Images/happycat.PNG);
 }
 
 /* footer {

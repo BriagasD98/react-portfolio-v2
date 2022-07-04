@@ -9,12 +9,12 @@ function Portfolio() {
     animate={{width: "100vw"}}
     exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
     >
-      <div className='card2 box1'></div>
-      <div className='card2 box2'></div>
-      <div className='card2 box3'></div>
-      <div className='card2 box4'></div>
-      <div className='card2 box5'></div>
-      <div className='card2 box6'></div>
+      <div className='card2 box1'>Box 1</div>
+      <div className='card2 box2'>Box 2</div>
+      <div className='card2 box3'>Box 3</div>
+      <div className='card2 box4'>Box 4</div>
+      <div className='card2 box5'>Box 5</div>
+      <div className='card2 box6'>Box 6</div>
     </motion.div>
   )
 }
