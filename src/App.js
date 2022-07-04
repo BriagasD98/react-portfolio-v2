@@ -11,7 +11,9 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <Router>
+      <div className='container'>
       <h1 className='header'>DAVID BRIAGAS</h1>
+      </div>
       <Nav></Nav>
       <Routes>
         <Route path="/" element={<About />} />

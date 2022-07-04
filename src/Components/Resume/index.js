@@ -2,7 +2,7 @@ import React from 'react'
 
 function Resume() {
   return (
-    <div>THIS IS THE RESUME PAGE</div>
+    <div className='container'>THIS IS THE RESUME COMPONENT</div>
   )
 }
 
