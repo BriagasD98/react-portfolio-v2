@@ -50,9 +50,17 @@ div {
 .icon {
   height: 110px;
   width: 110px;
+  margin: 8px 0 8px 0;
 }
 
 /* Fix on hover animation!!! */
+
+.iconlist {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 40%;
+}
 
 .icon img:after {
   content: '';
@@ -66,7 +74,7 @@ div {
 }
 
 .icon img:hover:after {
-  width: 40%;
+  width: 20%;
 }
 
 /* ^^^Fix on hover animation!!!^^^^ */

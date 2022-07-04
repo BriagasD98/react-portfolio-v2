@@ -16,6 +16,7 @@ function About() {
           <div className='card'>
 
             <div className='tiles1'>
+              <nav className='iconlist'>
               <a>
                 <img className='icon' src={emailIcon} alt="Email" />
               </a>
@@ -25,6 +26,16 @@ function About() {
               <a href="https://www.linkedin.com/in/david-briagas-web-dev/">
                 <img className='icon' src={liIcon} alt="LinkedIn" />
               </a>
+              </nav>
+              {/* <a>
+                <img className='icon' src={emailIcon} alt="Email" />
+              </a>
+              <a href="https://github.com/BriagasD98">
+                <img className='icon' src={ghIcon} alt="Github" />
+              </a>
+              <a href="https://www.linkedin.com/in/david-briagas-web-dev/">
+                <img className='icon' src={liIcon} alt="LinkedIn" />
+              </a> */}
             </div>
             <img className='david' src={David} alt="David" />
           </div>
