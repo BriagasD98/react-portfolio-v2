@@ -1,6 +1,6 @@
 import React from 'react'
 import David from '../../Assets/Images/davidbheadshot.JPG'
-import emailIcon from '../../Assets/Images/email-icon.png'
+import stackoIcon from '../../Assets/Images/stackoflow.png'
 import ghIcon from '../../Assets/Images/gh-icon2.png'
 import liIcon from '../../Assets/Images/linkedin-icon.png'
 import houston from '../../Assets/Images/houstonsky.png'
@@ -18,8 +18,8 @@ function About() {
 
             <div className='tiles1'>
               <nav className='iconlist'>
-              <a>
-                <img className='icon' src={emailIcon} alt="Email" />
+              <a href='https://stackoverflow.com/users/15757837/david-briagas'>
+                <img className='icon' src={stackoIcon} alt="Stack Overflow" />
               </a>
               <a href="https://github.com/BriagasD98">
                 <img className='icon' src={ghIcon} alt="Github" />
