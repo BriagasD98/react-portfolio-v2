@@ -11,9 +11,15 @@ function About() {
           <div className='card'>
 
             <div className='tiles1'>
-              <img className='icon' src={emailIcon} alt="Email" />
-              <img className='icon' src={ghIcon} alt="Github" />
-              <img className='icon' src={liIcon} alt="LinkedIn" />
+              <a>
+                <img className='icon' src={emailIcon} alt="Email" />
+              </a>
+              <a href="https://github.com/BriagasD98">
+                <img className='icon' src={ghIcon} alt="Github" />
+              </a>
+              <a href="https://www.linkedin.com/in/david-briagas-web-dev/">
+                <img className='icon' src={liIcon} alt="LinkedIn" />
+              </a>
             </div>
             <img className='david' src={David} alt="David" />
           </div>

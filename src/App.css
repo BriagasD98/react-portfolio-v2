@@ -82,11 +82,32 @@ div {
   width: 110px;
 }
 
+/* Fix on hover animation!!! */
+
+.tiles1 a:after {
+  content: '';
+  position: absolute;
+  background-color: orange;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: 0;
+  transition: 0.3s;
+}
+
+.tiles1 a:hover:after {
+  width: 40%;
+}
+
+/* ^^^Fix on hover animation!!!^^^^ */
+
 .card p {
   background-color: rgba(0,0,0,0.2);
   padding: 10px;
   border-radius: 30px;
   text-align: center;
+  width: 80%;
+  padding-top: 15px;
 }
 
 nav a {
