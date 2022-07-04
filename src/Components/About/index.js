@@ -1,7 +1,7 @@
 import React from 'react'
 import David from '../../Assets/Images/davidbheadshot.JPG'
 import emailIcon from '../../Assets/Images/email-icon.png'
-import ghIcon from '../../Assets/Images/Github-icon.png'
+import ghIcon from '../../Assets/Images/gh-icon2.png'
 import liIcon from '../../Assets/Images/linkedin-icon.png'
 import { motion } from 'framer-motion'
 
@@ -27,15 +27,6 @@ function About() {
                 <img className='icon' src={liIcon} alt="LinkedIn" />
               </a>
               </nav>
-              {/* <a>
-                <img className='icon' src={emailIcon} alt="Email" />
-              </a>
-              <a href="https://github.com/BriagasD98">
-                <img className='icon' src={ghIcon} alt="Github" />
-              </a>
-              <a href="https://www.linkedin.com/in/david-briagas-web-dev/">
-                <img className='icon' src={liIcon} alt="LinkedIn" />
-              </a> */}
             </div>
             <img className='david' src={David} alt="David" />
           </div>
