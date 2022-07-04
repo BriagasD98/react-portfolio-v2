@@ -3,6 +3,7 @@ import David from '../../Assets/Images/davidbheadshot.JPG'
 import emailIcon from '../../Assets/Images/email-icon.png'
 import ghIcon from '../../Assets/Images/gh-icon2.png'
 import liIcon from '../../Assets/Images/linkedin-icon.png'
+import houston from '../../Assets/Images/houstonsky.png'
 import { motion } from 'framer-motion'
 
 function About() {
@@ -25,6 +26,10 @@ function About() {
               </a>
               <a href="https://www.linkedin.com/in/david-briagas-web-dev/">
                 <img className='icon' src={liIcon} alt="LinkedIn" />
+              </a>
+              <a>
+                {/* <img className='icon' src={houston} alt="Houston" /> */}
+                Houston, TX
               </a>
               </nav>
             </div>
