@@ -180,7 +180,15 @@ font-size: xx-large;
   height: 500px;
 }
 
+.cardtitle {
+  display: flex;
+  align-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 .cardtitle h2{
+  justify-content: space-around;
   text-align: center;
   background-color: rgba(0,0,0,0.2);
   width: 50%;
@@ -188,7 +196,7 @@ font-size: xx-large;
 
 .card2 {
 flex-direction: column;
-justify-content: center;
+justify-content: space-evenly;
 height: 250px;
 color: beige;
 width: 30%;
@@ -196,10 +204,6 @@ margin: 10px auto;
 border: 30px;
 border-color: orange;
 border-radius: 30px;
-}
-
-.card2 h2 {
-  
 }
 
 .box1 {
