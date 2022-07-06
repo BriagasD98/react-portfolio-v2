@@ -169,7 +169,8 @@ font-size: xx-large;
   justify-content: space-between;
   bottom: 0%;
   margin: 10px;
-  
+  position: relative;
+  bottom: -19px;
 }
 
 .container2 {
