@@ -10,7 +10,7 @@ function Portfolio() {
     animate={{width: "100vw"}}
     exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
     >
-      <div className='card2 box1'>Box 1
+      <div className='card2 box1'>
         <div className='cardtitle'>
           <h2>Project 1</h2>
           <h2>Example 1</h2>

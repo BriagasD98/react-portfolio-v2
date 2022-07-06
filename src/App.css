@@ -170,7 +170,7 @@ font-size: xx-large;
   bottom: 0%;
   margin: 10px;
   position: relative;
-  bottom: -19px;
+  bottom: -37px;
 }
 
 .container2 {
@@ -191,8 +191,12 @@ font-size: xx-large;
 .cardtitle h2{
   justify-content: space-around;
   text-align: center;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.3);
   width: 50%;
+  border-radius: 20px;
+  color: white;
+  position: relative;
+  bottom: -37px;
 }
 
 .card2 {
@@ -205,6 +209,11 @@ margin: 10px auto;
 border: 30px;
 border-color: orange;
 border-radius: 30px;
+}
+
+.card2 div {
+  border-width: 5px;
+  border-color: orange;
 }
 
 .box1 {
