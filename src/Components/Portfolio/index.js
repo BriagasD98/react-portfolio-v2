@@ -27,8 +27,8 @@ function Portfolio() {
 
       <div className='card2 box2'>
         <div className='cardtitle'>
-          <h2>Project 1</h2>
-          <h2>Example 1</h2>
+          <h2>Project 2</h2>
+          <h2>Example 2</h2>
         </div>
         <div className='btnboard'>
           <a href="https://github.com/BriagasD98">
@@ -42,8 +42,8 @@ function Portfolio() {
 
       <div className='card2 box3'>
         <div className='cardtitle'>
-          <h2>Project 1</h2>
-          <h2>Example 1</h2>
+          <h2>Project 3</h2>
+          <h2>Example 3</h2>
         </div>
         <div className='btnboard'>
           <a href="https://github.com/BriagasD98">
@@ -57,8 +57,8 @@ function Portfolio() {
 
       <div className='card2 box4'>
         <div className='cardtitle'>
-          <h2>Project 1</h2>
-          <h2>Example 1</h2>
+          <h2>Project 4</h2>
+          <h2>Example 4</h2>
         </div>
         <div className='btnboard'>
           <a href="https://github.com/BriagasD98">
@@ -72,8 +72,8 @@ function Portfolio() {
 
       <div className='card2 box5'>
         <div className='cardtitle'>
-          <h2>Project 1</h2>
-          <h2>Example 1</h2>
+          <h2>Project 5</h2>
+          <h2>Example 5</h2>
         </div>
         <div className='btnboard'>
           <a href="https://github.com/BriagasD98">
@@ -87,8 +87,8 @@ function Portfolio() {
 
       <div className='card2 box6'>
         <div className='cardtitle'>
-          <h2>Project 1</h2>
-          <h2>Example 1</h2>
+          <h2>Project 6</h2>
+          <h2>Example 6</h2>
         </div>
         <div className='btnboard'>
           <a href="https://github.com/BriagasD98">
