@@ -36,7 +36,7 @@ function About() {
             <img className='david' src={David} alt="David" />
           </div>
 
-          <div className='card'>
+          <div className='card bio'>
             <p>I'm a Full-Stack Developer leveraging a strong background
                in entrepreneurship to put 110% into everything I do and creative thinking
                 to find success. Recently earned a certificate in Full-Stack Web Development
