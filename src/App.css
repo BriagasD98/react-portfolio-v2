@@ -255,7 +255,38 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
   }
 
   .card2 {
-    width: 90%;
+    width: 100%;
+  }
+
+  .bio{
+    display: block;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .card {
+    display: block;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+  }
+
+  .card div {
+    display: block;
+    width: 100%;
+  }
+
+  .card p {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+  }
+
+  .david {
+    display: block;
+    justify-content: center;
+    width: 100%
   }
 }
 
