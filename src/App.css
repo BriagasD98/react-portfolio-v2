@@ -246,6 +246,19 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
   background-size: 100% 30px 30px;
 } */
 
+@media all and (max-width: 500px) {
+  .container2 {
+    display: block;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .card2 {
+    width: 90%;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
