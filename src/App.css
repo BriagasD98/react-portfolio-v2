@@ -188,6 +188,7 @@ font-size: xx-large;
   flex-direction: row;
   flex-wrap: wrap;
   height: 500px;
+  margin: 20px auto;
 }
 
 .cardtitle {
@@ -282,10 +283,11 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
   }
 
   .card p {
-    width: 94%;
+    width: 90%;
     display: flex;
     justify-content: center;
     font-size: x-large;
+    margin: 0 auto;
   }
 
   .david img {
