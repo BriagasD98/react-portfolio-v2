@@ -27,7 +27,11 @@ div {
   width:57%;
   border-radius: 30px;
   font-size: x-large;
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+.david img {
+  width: 100%;
   box-shadow: 0 0 20px rgb(0 0 0 / 50%);
 }
 

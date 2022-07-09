@@ -33,7 +33,9 @@ function About() {
               </a>
               </nav>
             </div>
-            <img className='david' src={David} alt="David" />
+            <div className='david'>
+              <img className='david' src={David} alt="David" />
+            </div>
           </div>
 
           <div className='card bio'>
