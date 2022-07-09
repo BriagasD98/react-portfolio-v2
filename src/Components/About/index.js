@@ -27,7 +27,7 @@ function About() {
               <a href="https://www.linkedin.com/in/david-briagas-web-dev/">
                 <img className='icon' src={liIcon} alt="LinkedIn" />
               </a>
-              <a>
+              <a className='houston'>
                 {/* <img className='icon' src={houston} alt="Houston" /> */}
                 Houston, TX
               </a>
