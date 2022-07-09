@@ -288,10 +288,11 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
     font-size: x-large;
   }
 
-  .david {
+  .david img {
     display: block;
     justify-content: center;
-    width: 100%
+    width: 90%;
+    margin: 0 auto;
   }
 
   .iconlist {
