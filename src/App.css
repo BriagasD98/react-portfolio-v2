@@ -256,6 +256,13 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
   margin: 20px auto;
 }
 
+.iconlist2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 100%;
+}
+
 .card3 {
   display: flex;
   justify-content: center;
@@ -271,6 +278,18 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: column;
+}
+
+.resume nav {
+  display: flex;
+  justify-content: center;
+}
+
+.resume nav a {
+  display: block;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 .resume span {
@@ -294,6 +313,11 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
   margin: 20px auto;
 }
 
+.icon4 {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
 
 
 /* Resume Styling END */

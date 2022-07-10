@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 
 import liQRCode from '../../Assets/Images/DavidB-LI-QR.png'
 import gdocs from '../../Assets/Images/google-docs.png'
+import fileexp from '../../Assets/Images/file-exp2.png'
 
 
 function Resume() {
@@ -21,13 +22,14 @@ function Resume() {
         <div>
           <h2>Download My Resume <span>HERE</span>!</h2>
         </div> */}
-        <nav className='iconlist'>
-          <a>
-          <h2>Click <span>HERE</span> to View Resume!</h2>
-          <img className='icon' src={gdocs} />
+        <nav className='iconlist2'>
+          <a href='https://docs.google.com/document/d/1BHQSK87pGRyUdzCEycDPM5r7ZPkLKtQmK0RNpI-YxsM/edit?usp=sharing'>
+            <h2>Click <span>HERE</span> to View Resume!</h2>
+            <img className='icon4' src={gdocs} />
           </a>
           <a>
             <h2>Download My Resume <span>HERE</span>!</h2>
+            <img className='icon4' src={fileexp} />
           </a>
         </nav>
       </div>
