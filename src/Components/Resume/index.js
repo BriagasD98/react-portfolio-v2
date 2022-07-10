@@ -16,12 +16,6 @@ function Resume() {
     <div className='container3'>
 
       <div className='card3 resume'>
-        {/* <div>
-          <h2>Click <span>HERE</span> to View Resume!</h2>
-        </div>
-        <div>
-          <h2>Download My Resume <span>HERE</span>!</h2>
-        </div> */}
         <nav className='iconlist2'>
           <a href='https://docs.google.com/document/d/1BHQSK87pGRyUdzCEycDPM5r7ZPkLKtQmK0RNpI-YxsM/edit?usp=sharing'>
             <h2>Click <span>HERE</span> to View Resume!</h2>
