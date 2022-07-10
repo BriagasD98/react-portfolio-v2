@@ -228,16 +228,20 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
 }
 
 .box1 {
-  background-image: url(/src/Assets/Images/happycat.PNG);
+  background-image: url(/src/Assets/Images/cherry-picker.png);
+  background-size: 460px;
 }
 .box2 {
-  background-image: url(/src/Assets/Images/happycat.PNG);
+  background-image: url(/src/Assets/Images/gopher-hook.png);
+  background-size: 600px;
 }
 .box3 {
-  background-image: url(/src/Assets/Images/happycat.PNG);
+  background-image: url(/src/Assets/Images/gopher1.png);
+  background-size: 500px;
 }
 .box4 {
-  background-image: url(/src/Assets/Images/happycat.PNG);
+  background-image: url(/src/Assets/Images/Social-API.gif);
+  background-size: 520px;
 }
 .box5 {
   background-image: url(/src/Assets/Images/happycat.PNG);
