@@ -171,6 +171,10 @@ font-size: xx-large;
 .icon2 {
   height:60px;
   width: 60px;
+  border-radius: 30px;
+  border-width: 30px;
+  border: solid;
+  border-color: orange;
 }
 
 .btnboard {
@@ -244,10 +248,12 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
   background-size: 520px;
 }
 .box5 {
-  background-image: url(/src/Assets/Images/happycat.PNG);
+  background-image: url(/src/Assets/Images/Tech-Blog.png);
+  background-size: 500px;
 }
 .box6 {
-  background-image: url(/src/Assets/Images/happycat.PNG);
+  background-image: url(/src/Assets/Images/Run-Buddy-1.png);
+  background-size: 500px;
 }
 
 /* Portfolio Styling END */
