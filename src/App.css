@@ -273,7 +273,11 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
   flex-direction: column;
 }
 
-.resume h2 {
+.resume span {
+  color: orange;
+}
+
+.card3 h2 {
   font-size: xx-large;
 }
 
