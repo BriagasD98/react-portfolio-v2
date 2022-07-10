@@ -3,7 +3,7 @@ import David from '../../Assets/Images/davidbheadshot.JPG'
 import stackoIcon from '../../Assets/Images/stackoflow.png'
 import ghIcon from '../../Assets/Images/gh-icon2.png'
 import liIcon from '../../Assets/Images/linkedin-icon.png'
-import houston from '../../Assets/Images/houstonsky.png'
+import liQRCode from '../../Assets/Images/DavidB-LI-QR.png'
 import { motion } from 'framer-motion'
 
 function About() {
@@ -28,7 +28,6 @@ function About() {
                 <img className='icon' src={liIcon} alt="LinkedIn" />
               </a>
               <a className='houston'>
-                {/* <img className='icon' src={houston} alt="Houston" /> */}
                 Houston, TX
               </a>
               </nav>
@@ -52,6 +51,10 @@ function About() {
                         my skills in the industry to develop cutting-edge applications as part
                          of a tenacious & enthusiastic team.</p>
           </div>
+
+          {/* <div>
+            <img className='icon' src={liQRCode} />
+          </div> */}
 
         </motion.div>
   )

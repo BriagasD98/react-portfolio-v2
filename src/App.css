@@ -167,7 +167,7 @@ transform: translate(-50%, -50%);
 font-size: xx-large;
 }
 
-/* Portfolio Styling */
+/* Portfolio Styling START */
 .icon2 {
   height:60px;
   width: 60px;
@@ -245,6 +245,25 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
 .box6 {
   background-image: url(/src/Assets/Images/happycat.PNG);
 }
+
+/* Portfolio Styling END */
+
+/* Resume Styling START */
+.container3 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.card3 {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Resume Styling END */
 
 /* footer {
   background-image: url(/src/Assets/Cover/cityconnectnav.jpg);
