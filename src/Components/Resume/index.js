@@ -27,9 +27,12 @@ function Resume() {
             <h2>Click <span>HERE</span> to View Resume!</h2>
             <img className='icon4' src={gdocs} />
           </a>
-          <a>
-            <h2>Download My Resume <span>HERE</span>!</h2>
-            <img className='icon4' src={fileexp} />
+          <a className='skills'>
+            REACT <span>|</span> CSS <span>|</span> JAVASCRIPT <span>|</span>  
+             GIT <span>|</span> SQL <span>|</span> NODE <span>|</span> EXPRESS <span>|</span> 
+             HEROKU <span>|</span> REST APIs <span>|</span> GITHUB <span>|</span> MONGODB 
+            {/* <h2>Download My Resume <span>HERE</span>!</h2>
+            <img className='icon4' src={fileexp} /> */}
           </a>
         </nav>
       </div>
