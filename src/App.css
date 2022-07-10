@@ -398,6 +398,20 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
     justify-content: space-evenly;
     left: 0;
   }
+
+  .container3 {
+    display: block;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 10px auto;
+  }
+
+  .card3 {
+    display: block;
+    justify-content: center;
+    width: 95%;
+    margin: 20px auto;
+  }
 }
 
 @keyframes App-logo-spin {
