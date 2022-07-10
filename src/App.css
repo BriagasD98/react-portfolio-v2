@@ -253,7 +253,7 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
   display: flex;
   justify-content: space-evenly;
   width: 90%;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 
 .card3 {
@@ -261,6 +261,9 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
   justify-content: center;
   width: 40%;
   background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 10px auto;
+  box-shadow: 0 0 20px rgb(0 0 0 / 50%);
 }
 
 /* Resume Styling END */
