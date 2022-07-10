@@ -175,6 +175,8 @@ font-size: xx-large;
   border-width: 30px;
   border: solid;
   border-color: orange;
+  position: relative;
+  bottom: 15px;
 }
 
 .btnboard {
@@ -210,7 +212,10 @@ font-size: xx-large;
   border-radius: 20px;
   color: white;
   position: relative;
-  bottom: -37px;
+  bottom: -32px;
+  border: solid;
+  border-width: 3px;
+  border-color: orange;
 }
 
 .card2 {
