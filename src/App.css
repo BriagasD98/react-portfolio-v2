@@ -266,6 +266,21 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
   box-shadow: 0 0 20px rgb(0 0 0 / 50%);
 }
 
+.resume {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.resume div {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
 /* Resume Styling END */
 
 /* footer {

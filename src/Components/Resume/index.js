@@ -11,7 +11,7 @@ function Resume() {
     >
     <div className='container3'>
 
-      <div className='card3'>
+      <div className='card3 resume'>
         <div>
           <h2>Download My Resume Here!</h2>
         </div>
@@ -20,7 +20,7 @@ function Resume() {
         </div>
       </div>
 
-      <div className='card3'>
+      <div className='card3 resume'>
         <div>
           <h2>SCAN ME To View App On Mobile Device!</h2>
           <img />
