@@ -87,8 +87,8 @@ function Portfolio() {
 
       <div className='card2 box6'>
         <div className='cardtitle'>
-          <h2>Run Buddy</h2>
-          <h2>HTML & CSS</h2>
+          <h2>Team Generator</h2>
+          <h2>SQL, HTML & CSS</h2>
         </div>
         <div className='btnboard'>
           <a href="https://github.com/BriagasD98/Team-Profile-Generator">
