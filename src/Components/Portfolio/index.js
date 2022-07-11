@@ -46,10 +46,10 @@ function Portfolio() {
           <h2>HTML, CSS & APIs</h2>
         </div>
         <div className='btnboard'>
-          <a href="https://github.com/BriagasD98">
+          <a href="https://github.com/BriagasD98/Gopher">
             <img className='icon2' src={ghIcon} alt="Github" />
           </a>
-          <a href="https://github.com/BriagasD98">
+          <a href="https://lrk83.github.io/Gopher/">
             <img className='icon2' src={ghIcon} alt="Github" />
           </a>
         </div>
@@ -61,10 +61,10 @@ function Portfolio() {
           <h2>MONGO DB & APIs</h2>
         </div>
         <div className='btnboard'>
-          <a href="https://github.com/BriagasD98">
+          <a href="https://github.com/BriagasD98/Social-Network-API">
             <img className='icon2' src={ghIcon} alt="Github" />
           </a>
-          <a href="https://github.com/BriagasD98">
+          <a href="https://drive.google.com/file/d/1OJpjoI7ItjI7qbtTWb8riJ-nIJVjAl2L/view">
             <img className='icon2' src={ghIcon} alt="Github" />
           </a>
         </div>
@@ -76,10 +76,10 @@ function Portfolio() {
           <h2>SQL, HTML & CSS</h2>
         </div>
         <div className='btnboard'>
-          <a href="https://github.com/BriagasD98">
+          <a href="https://github.com/BriagasD98/TechBlog">
             <img className='icon2' src={ghIcon} alt="Github" />
           </a>
-          <a href="https://github.com/BriagasD98">
+          <a href="https://tranquil-tundra-80963.herokuapp.com/login">
             <img className='icon2' src={ghIcon} alt="Github" />
           </a>
         </div>
@@ -91,10 +91,10 @@ function Portfolio() {
           <h2>HTML & CSS</h2>
         </div>
         <div className='btnboard'>
-          <a href="https://github.com/BriagasD98">
+          <a href="https://github.com/BriagasD98/Team-Profile-Generator">
             <img className='icon2' src={ghIcon} alt="Github" />
           </a>
-          <a href="https://github.com/BriagasD98">
+          <a href="https://briagasd98.github.io/Team-Profile-Generator/">
             <img className='icon2' src={ghIcon} alt="Github" />
           </a>
         </div>
