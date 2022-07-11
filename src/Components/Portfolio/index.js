@@ -1,5 +1,6 @@
 import React from 'react'
 import ghIcon from '../../Assets/Images/gh-icon2.png'
+import arrow from '../../Assets/Images/down-arrow.png'
 
 import { motion } from 'framer-motion'
 
@@ -20,7 +21,7 @@ function Portfolio() {
             <img className='icon2' src={ghIcon} alt="Github" />
           </a>
           <a href="https://floating-depths-28820.herokuapp.com/#/">
-            <img className='icon2' src={ghIcon} alt="Deployed" />
+            <img className='icon2' src={arrow} alt="Deployed" />
           </a>
         </div>
       </div>
@@ -35,7 +36,7 @@ function Portfolio() {
             <img className='icon2' src={ghIcon} alt="Github" />
           </a>
           <a href="https://thawing-fortress-75852.herokuapp.com/">
-            <img className='icon2' src={ghIcon} alt="Deployed" />
+            <img className='icon2' src={arrow} alt="Deployed" />
           </a>
         </div>
       </div>
@@ -50,7 +51,7 @@ function Portfolio() {
             <img className='icon2' src={ghIcon} alt="Github" />
           </a>
           <a href="https://lrk83.github.io/Gopher/">
-            <img className='icon2' src={ghIcon} alt="Github" />
+            <img className='icon2' src={arrow} alt="Github" />
           </a>
         </div>
       </div>
@@ -65,7 +66,7 @@ function Portfolio() {
             <img className='icon2' src={ghIcon} alt="Github" />
           </a>
           <a href="https://drive.google.com/file/d/1OJpjoI7ItjI7qbtTWb8riJ-nIJVjAl2L/view">
-            <img className='icon2' src={ghIcon} alt="Github" />
+            <img className='icon2' src={arrow} alt="Github" />
           </a>
         </div>
       </div>
@@ -80,7 +81,7 @@ function Portfolio() {
             <img className='icon2' src={ghIcon} alt="Github" />
           </a>
           <a href="https://tranquil-tundra-80963.herokuapp.com/login">
-            <img className='icon2' src={ghIcon} alt="Github" />
+            <img className='icon2' src={arrow} alt="Github" />
           </a>
         </div>
       </div>
@@ -95,7 +96,7 @@ function Portfolio() {
             <img className='icon2' src={ghIcon} alt="Github" />
           </a>
           <a href="https://briagasd98.github.io/Team-Profile-Generator/">
-            <img className='icon2' src={ghIcon} alt="Github" />
+            <img className='icon2' src={arrow} alt="Github" />
           </a>
         </div>
       </div>
