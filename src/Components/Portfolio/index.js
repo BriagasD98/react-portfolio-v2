@@ -16,11 +16,11 @@ function Portfolio() {
           <h2>React, APIs & CSS</h2>
         </div>
         <div className='btnboard'>
-          <a href="https://github.com/BriagasD98">
+          <a href="https://github.com/BriagasD98/cherry-picker">
             <img className='icon2' src={ghIcon} alt="Github" />
           </a>
-          <a href="https://github.com/BriagasD98">
-            <img className='icon2' src={ghIcon} alt="Github" />
+          <a href="https://floating-depths-28820.herokuapp.com/#/">
+            <img className='icon2' src={ghIcon} alt="Deployed" />
           </a>
         </div>
       </div>
@@ -31,11 +31,11 @@ function Portfolio() {
           <h2>React, SQL, APIs & CSS</h2>
         </div>
         <div className='btnboard'>
-          <a href="https://github.com/BriagasD98">
+          <a href="https://github.com/BriagasD98/Gopher-2.0">
             <img className='icon2' src={ghIcon} alt="Github" />
           </a>
-          <a href="https://github.com/BriagasD98">
-            <img className='icon2' src={ghIcon} alt="Github" />
+          <a href="https://thawing-fortress-75852.herokuapp.com/">
+            <img className='icon2' src={ghIcon} alt="Deployed" />
           </a>
         </div>
       </div>
