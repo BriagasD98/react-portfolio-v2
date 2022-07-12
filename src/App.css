@@ -461,6 +461,12 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
   text-align: center;
 }
 
+.icon5 {
+  height: 95px;
+  width: 95px;
+  margin: 8px auto;
+}
+
 /* Contact Component Styling END */
 
 /* footer {

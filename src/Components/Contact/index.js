@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com'
 import ghIcon from '../../Assets/Images/gh-icon2.png'
 import liIcon from '../../Assets/Images/linkedin-icon.png'
 import emailIcon from '../../Assets/Images/email-icon.png'
+import geopin from '../../Assets/Images/pin.png'
 import { motion } from 'framer-motion'
 
 function Contact() {
@@ -60,19 +61,20 @@ function Contact() {
                 <div className='tiles2'>
                     <nav className='iconlist'>
                     <a href="https://github.com/BriagasD98">
-                        <img className='icon' src={emailIcon} alt="Email" />
+                        <img className='icon5' src={emailIcon} alt="Email" />
                         <span>briagasdavid@yahoo.com</span>
                     </a>
                     <a href="https://github.com/BriagasD98">
-                        <img className='icon' src={ghIcon} alt="Github" />
+                        <img className='icon5' src={ghIcon} alt="Github" />
                         <span>BriagasD98</span>
                     </a>
                     <a href="https://www.linkedin.com/in/david-briagas-web-dev/">
-                        <img className='icon' src={liIcon} alt="LinkedIn" />
+                        <img className='icon5' src={liIcon} alt="LinkedIn" />
                         <span>David Briagas</span>
                     </a>
                     <a className='houston'>
-                        Houston, Texas
+                        <img className="icon5" src={geopin} alt="Location" />
+                        <span>Houston, Texas</span>
                     </a>
                     </nav>
                 </div>
