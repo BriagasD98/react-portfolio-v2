@@ -23,11 +23,12 @@ function Contact() {
         exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
         >
             <div className="container4">
-                <h2>contact info here</h2>
+                <h2 className="cardtitle4">Reach Out</h2>
             </div>
             <div className="container4">
                 <form onSubmit={sendEmail}>
                     <div className="contact-form">
+                        <h2 className="cardtitle4">Start a Conversation</h2>
                         <div className="form-group">
                             <h2>Your Name</h2>
                             <input type="text" className="form-control" placeholder="Name" name="name"/>
@@ -42,7 +43,7 @@ function Contact() {
                         </div>
                         <div className="form-group">
                             <h2>Write A Message</h2>
-                            <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your Message" name="message"></textarea>
+                            <textarea className="form-control" id="" cols="40" rows="5" placeholder="Your Message" name="message"></textarea>
                         </div>
                         <div className="form-group">
                             <input type="submit" className="btn btn-info" value="Send Message"></input>

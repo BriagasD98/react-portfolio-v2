@@ -369,7 +369,11 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   margin: 30px auto;
-  box-shadow: 0 0 20px rgb(0 0 0 / 50%)
+  box-shadow: 0 0 20px rgb(0 0 0 / 50%);
+}
+
+.container4 form {
+  width: 80%;
 }
 
 .contact-form {
@@ -379,21 +383,30 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
   flex-wrap: wrap;
 }
 
+.contact-form h2 {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  font-size: x-large;
+  margin: 10px auto;
+}
+
 .form-group {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  text-align: left;
 }
 
 .form-group h2 {
   display: flex;
   justify-content: center;
-  margin: 10px auto;
+  margin: 5px auto;
 }
 
 .form-group input {
   border-radius: 10px;
-  height: 25px;
+  height: 40px;
   font-family: 'Share Tech', sans-serif;
   font-size: large;
   margin: 2px;
@@ -408,11 +421,15 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
 
 .btn {
   margin: 20px auto;
+  height: 75px;
   width: 200px;
   font-size: large;
   font-weight: bold;
   letter-spacing: 2px;
   background-color: orange;
+  border: none;
+  box-shadow: 0 0 20px rgb(0 0 0 / 50%);
+  cursor: pointer;
 }
 
 /* Contact Component Styling END */
