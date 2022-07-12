@@ -23,8 +23,11 @@ function Contact() {
         exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
         >
             <div className="container4">
+                <h2>contact info here</h2>
+            </div>
+            <div className="container4">
                 <form onSubmit={sendEmail}>
-                    <div>
+                    <div className="contact-form">
                         <div className="form-group">
                             <h2>Your Name</h2>
                             <input type="text" className="form-control" placeholder="Name" name="name"/>

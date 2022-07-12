@@ -362,20 +362,56 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
 
 /* Contact Component Styling START */
 
+.container4 {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 30px auto;
+  box-shadow: 0 0 20px rgb(0 0 0 / 50%)
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 .form-group {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
+.form-group h2 {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+}
+
 .form-group input {
   border-radius: 10px;
   height: 25px;
+  font-family: 'Share Tech', sans-serif;
+  font-size: large;
+  margin: 2px;
+}
+
+.form-group textarea {
+  border-radius: 10px;
+  font-size: large;
+  font-family: 'Share Tech', sans-serif;
+  margin: 2px;
 }
 
 .btn {
-  margin: 10px auto;
+  margin: 20px auto;
   width: 200px;
+  font-size: large;
+  font-weight: bold;
+  letter-spacing: 2px;
   background-color: orange;
 }
 
