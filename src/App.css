@@ -432,6 +432,22 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
   cursor: pointer;
 }
 
+.tiles2 {
+  display: flex;
+  justify-content: center;
+}
+
+.tiles2 a {
+  display: flex;
+  flex-direction: row;
+}
+
+.tiles2 span {
+  display: flex;
+  justify-content: center;
+  margin: auto 10px;
+}
+
 /* Contact Component Styling END */
 
 /* footer {
