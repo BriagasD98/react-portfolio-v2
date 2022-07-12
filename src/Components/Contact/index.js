@@ -55,7 +55,7 @@ function Contact() {
         animate={{width: "100vw"}}
         exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
         >
-            <div className="container4">
+            <div className="container4 reachout">
                 <h2 className="cardtitle4">Reach Out</h2>
                 <div className='tiles2'>
                     <nav className='iconlist'>
