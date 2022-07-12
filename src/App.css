@@ -358,7 +358,28 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
   color: orange;
 }
 
-/* Resume Styling END */
+/* Resume Component Styling END */
+
+/* Contact Component Styling START */
+
+.form-group {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-group input {
+  border-radius: 10px;
+  height: 25px;
+}
+
+.btn {
+  margin: 10px auto;
+  width: 200px;
+  background-color: orange;
+}
+
+/* Contact Component Styling END */
 
 /* footer {
   background-image: url(/src/Assets/Cover/cityconnectnav.jpg);
