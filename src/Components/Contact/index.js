@@ -14,9 +14,25 @@ function Contact() {
         animate={{width: "100vw"}}
         exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
         >
-            <div className="container">
+            <div className="container4">
                 <form onSubmit={sendEmail}>
-                    
+                    <div>
+                        <div className="form-group">
+                            <input type="text" className="form-control" placeholder="Name" name="name"/>
+                        </div>
+                        <div className="form-group">
+                            <input type="email" className="form-control" placeholder="Email" name="email"/>
+                        </div>
+                        <div className="form-group">
+                            <input type="text" className="form-control" placeholder="Subject" name="subject" />
+                        </div>
+                        <div className="form-group">
+                            <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your Message" name="message"></textarea>
+                        </div>
+                        <div className="form-group">
+                            <input type="submit" className="btn btn-info" value="Send Message"></input>
+                        </div>
+                    </div>
                 </form>
             </div>
 
