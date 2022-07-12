@@ -16,6 +16,36 @@ function Contact() {
           e.target.reset()
     }
 
+    // function validation() {
+    //     var form = document.getElementById('form');
+    //     var email = document.getElementById('email').value;
+    //     var text = document.getElementById('text');
+    //     var pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+
+    //     if (email.matches(pattern))
+    //     {
+    //         form.classList.add('valid');
+    //         form.classList.remove('invalid');
+    //         text.innerHTML = 'Your Email Address is Valid.';
+    //         text.style.color = "#00ff00";
+    //     }
+    //     else
+    //     {
+    //         form.classList.remove('valid');
+    //         form.classList.add('invalid');
+    //         text.innerHTML = 'Please Enter Valid Email Address.';
+    //         text.style.color = '#ff0000';
+    //     }
+
+    //     if (email == '')
+    //     {
+    //         form.classList.remove('valid');
+    //         form.classList.remove('invalid');
+    //         text.innerHTML = '';
+    //         text.style.color = '#00ff00';
+    //     }
+    // }
+
     return (
         <motion.div className='container'
         initial={{width: 0}}
@@ -33,10 +63,15 @@ function Contact() {
                             <h2>Your Name</h2>
                             <input type="text" className="form-control" placeholder="Name" name="name"/>
                         </div>
+                        {/* Email Validation START*/}
+
                         <div className="form-group">
                             <h2>Your Email</h2>
-                            <input type="email" className="form-control" placeholder="Email" name="email"/>
+                            <input type="text" id="email" className="form-control" placeholder="Email" name="email"/>
+                            <span id="text"></span>
                         </div>
+                        
+                        {/* Email Validation END */}
                         <div className="form-group">
                             <h2>Subject</h2>
                             <input type="text" className="form-control" placeholder="Subject" name="subject" />
