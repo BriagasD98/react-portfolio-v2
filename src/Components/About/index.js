@@ -3,7 +3,6 @@ import David from '../../Assets/Images/davidbheadshot.JPG'
 import stackoIcon from '../../Assets/Images/stackoflow.png'
 import ghIcon from '../../Assets/Images/gh-icon2.png'
 import liIcon from '../../Assets/Images/linkedin-icon.png'
-// import liQRCode from '../../Assets/Images/DavidB-LI-QR.png'
 import { motion } from 'framer-motion'
 
 function About() {
@@ -51,10 +50,6 @@ function About() {
                         my skills in the industry to develop cutting-edge applications as part
                          of a tenacious & enthusiastic team.</p>
           </div>
-
-          {/* <div>
-            <img className='icon' src={liQRCode} />
-          </div> */}
 
         </motion.div>
   )

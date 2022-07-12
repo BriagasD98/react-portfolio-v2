@@ -23,6 +23,8 @@ div {
   color: white;
 }
 
+/* About Component Styling START */
+
 .david {
   width:57%;
   border-radius: 30px;
@@ -98,6 +100,10 @@ div {
   padding-top: 15px;
 }
 
+/* About Component Styling END */
+
+/* Nav Component Styling START */
+
 nav a {
   position: relative;
   color: white;
@@ -139,6 +145,10 @@ nav {
   padding-bottom: 12px;
 }
 
+/* Nav Component Styling END */
+
+/* Error Page Styling START */
+
 .errorpage {
   display: flex;
   justify-content: space-evenly;
@@ -167,7 +177,10 @@ transform: translate(-50%, -50%);
 font-size: xx-large;
 }
 
+/* Error Page Styling END */
+
 /* Portfolio Styling START */
+
 .icon2 {
   height:60px;
   width: 60px;
@@ -264,6 +277,7 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
 /* Portfolio Styling END */
 
 /* Resume Styling START */
+
 .container3 {
   display: flex;
   justify-content: space-evenly;
@@ -343,7 +357,6 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
 .skills span {
   color: orange;
 }
-
 
 /* Resume Styling END */
 
