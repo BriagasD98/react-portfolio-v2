@@ -5,7 +5,15 @@ import { motion } from 'framer-motion'
 function Contact() {
 
     function sendEmail(e) {
+        e.preventDefault();
 
+        emailjs.sendForm('service_xbxlgl1', 'template_ii70448', e.target, 'user_1Y2d3mZnf8rZgneRJe39L')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+          e.target.reset()
     }
 
     return (
