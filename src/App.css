@@ -376,6 +376,11 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
   width: 80%;
 }
 
+.tiles4 nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .contact-form {
   display: flex;
   justify-content: center;
@@ -408,13 +413,13 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
   border-radius: 10px;
   height: 40px;
   font-family: 'Share Tech', sans-serif;
-  font-size: large;
+  font-size: x-large;
   margin: 2px;
 }
 
 .form-group textarea {
   border-radius: 10px;
-  font-size: large;
+  font-size: x-large;
   font-family: 'Share Tech', sans-serif;
   margin: 2px;
 }
@@ -440,6 +445,10 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
 .tiles2 a {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  top: -10px;
+  margin: 0 auto;
 }
 
 .tiles2 span {
@@ -455,16 +464,31 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
   flex-wrap: wrap;
 }
 
+h2.cardtitle4 {
+  color: orange;
+  font-size: xx-large;
+}
+
 .reachout h2 {
   justify-content: center;
   display: block;
   text-align: center;
+  font-size: xx-large;
+  color: orange;
+  margin: 10px auto;
+}
+
+.iconlist2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 80%;
 }
 
 .icon5 {
-  height: 95px;
-  width: 95px;
-  margin: 8px auto;
+  height: 90px;
+  width: 90px;
+  margin: 6px auto;
 }
 
 /* Contact Component Styling END */

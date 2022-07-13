@@ -59,7 +59,7 @@ function Contact() {
             <div className="container4 reachout">
                 <h2 className="cardtitle4">Reach Out</h2>
                 <div className='tiles2'>
-                    <nav className='iconlist'>
+                    <nav className='iconlist2'>
                     <a href="https://github.com/BriagasD98">
                         <img className='icon5' src={emailIcon} alt="Email" />
                         <span>briagasdavid@yahoo.com</span>
@@ -102,7 +102,7 @@ function Contact() {
                         </div>
                         <div className="form-group">
                             <h2>Write A Message</h2>
-                            <textarea className="form-control" id="" cols="40" rows="5" placeholder="Your Message" name="message"></textarea>
+                            <textarea className="form-control" id="" cols="40" rows="3" placeholder="Your Message" name="message"></textarea>
                         </div>
                         <div className="form-group">
                             <input type="submit" className="btn btn-info" value="Send Message"></input>
