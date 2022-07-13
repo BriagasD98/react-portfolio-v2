@@ -366,7 +366,7 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
   display: flex;
   justify-content: center;
   width: 40%;
-  background-color: rgba(231, 123, 9, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   margin: 30px auto;
   box-shadow: 0 0 20px rgb(0 0 0 / 50%);
@@ -600,6 +600,7 @@ h2.cardtitle4 {
     display: flex;
     justify-content: center;
     width: 100%;
+    align-content: center;
   }
 
   form {
@@ -640,6 +641,17 @@ h2.cardtitle4 {
     margin: 0 auto;
     flex-direction: column;
     width: 100%;
+  }
+
+  .reachout h2 {
+    margin: 20px auto;
+    position: relative;
+    top: 10px;
+  }
+
+  .form-group input {
+    margin: 10px auto;
+    width: 80%;
   }
 }
 
