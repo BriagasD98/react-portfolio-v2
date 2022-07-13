@@ -72,7 +72,7 @@ function Contact() {
                         <img className='icon5' src={liIcon} alt="LinkedIn" />
                         <span>David Briagas</span>
                     </a>
-                    <a className='houston'>
+                    <a className='houston2'>
                         <img className="icon5" src={geopin} alt="Location" />
                         <span>Houston, Texas</span>
                     </a>
