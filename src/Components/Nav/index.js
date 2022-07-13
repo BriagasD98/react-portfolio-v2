@@ -7,13 +7,17 @@ function Nav() {
 
   return (
     <div className='renav'>
+      <div className='renav2'>
+        <h1 className='header'>DAVID BRIAGAS</h1>
+        <button onClick={()=> setShowLinks(!showLinks)} >Open</button>
+      </div>
       <nav className='links' style={{ width: "100%" }} id={showLinks ? "hidden" : ""}>
         <Link to='/about'> About </Link>
         <Link to='/portfolio'> Portfolio </Link>
         <Link to='/contact'> Contact </Link>
         <Link to='/resume'>Resume</Link>
       </nav>
-      <button onClick={()=> setShowLinks(!showLinks)} >Open</button>
+      {/* <button onClick={()=> setShowLinks(!showLinks)} >Open</button> */}
     </div>
   )
 }

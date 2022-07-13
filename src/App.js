@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <div className='container navbar'>
-        <h1 className='header'>DAVID BRIAGAS</h1>
+        {/* <h1 className='header'>DAVID BRIAGAS</h1> */}
       <Nav></Nav>
       </div>
       <AnimatedRoutes />

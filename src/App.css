@@ -701,7 +701,7 @@ h2.cardtitle4 {
     position: absolute;
     left: 0px;
     top: 80px;
-    height: 230px;
+    height: 100%;
     width: 100%;
     background-color: orange;
     display: flex;
@@ -710,6 +710,11 @@ h2.cardtitle4 {
     z-index: 9999;
   }
 
+  .renav2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+  }
   /* Responsive Navbar END */
 }
 
