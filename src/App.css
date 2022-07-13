@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 
+.App {
+  width: 100vw;
+  height: 100vw;
+}
+
 :root {
   font-family: 'Share Tech', sans-serif;
 }
 
 body {
   margin: 0;
+  padding: 0;
   background-image: url(/src/Assets/Cover/cityconnectblue.jpg);
 }
 
@@ -509,6 +515,10 @@ h2.cardtitle4 {
 
 /* Contact Component Styling END */
 
+.renav button {
+  display: none;
+}
+
 /* footer {
   background-image: url(/src/Assets/Cover/cityconnectnav.jpg);
   background-size: 100% 30px 30px;
@@ -669,6 +679,18 @@ h2.cardtitle4 {
     margin: 10px auto;
     width: 80%;
   }
+  /* Responsive Navbar START */
+
+  .renav button {
+    display: flex;
+    margin: 20px;
+  }
+
+  .renav nav {
+    display: none;
+  }
+
+  /* Responsive Navbar END */
 }
 
 @keyframes App-logo-spin {
