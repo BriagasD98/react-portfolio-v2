@@ -51,7 +51,7 @@ function Contact() {
     // }
 
     return (
-        <motion.div className='container'
+        <motion.div className="container2"
         initial={{width: 0}}
         animate={{width: "100vw"}}
         exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
