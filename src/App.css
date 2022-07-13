@@ -188,8 +188,18 @@ font-size: xx-large;
   border-width: 30px;
   border: solid;
   border-color: orange;
+  background-color: transparent;
   position: relative;
   bottom: 15px;
+}
+
+/* .icon2:after {
+  background-color: orange;
+} */
+
+.icon2:hover {
+  background-color: orange;
+  transition: 0.3s;
 }
 
 .btnboard {
@@ -229,6 +239,11 @@ font-size: xx-large;
   border: solid;
   border-width: 3px;
   border-color: orange;
+}
+
+.cardtitle h2:hover {
+  background-color: orange;
+  transition: 0.3s;
 }
 
 .card2 {
@@ -412,9 +427,10 @@ box-shadow: 0 0 20px rgb(0 0 0 / 50%);
 .form-group input {
   border-radius: 10px;
   height: 40px;
+  width: 70%;
   font-family: 'Share Tech', sans-serif;
   font-size: x-large;
-  margin: 2px;
+  margin: 2px auto;
 }
 
 .form-group textarea {
