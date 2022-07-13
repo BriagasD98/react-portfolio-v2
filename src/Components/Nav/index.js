@@ -1,17 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
+import '../../../src/App.css'
 import { Link } from 'react-router-dom'
 
 function Nav() {
+  const [showLinks, setShowLinks] = useState(false);
+
   return (
     <div className='renav'>
-      <nav style={{ width: "100%" }}>
-        {/* <Link to='/'> About </Link> */}
+      <nav className='links' style={{ width: "100%" }} id={showLinks ? "hidden" : ""}>
         <Link to='/about'> About </Link>
         <Link to='/portfolio'> Portfolio </Link>
         <Link to='/contact'> Contact </Link>
         <Link to='/resume'>Resume</Link>
       </nav>
-      <button>Open</button>
+      <button onClick={()=> setShowLinks(!showLinks)} >Open</button>
     </div>
   )
 }

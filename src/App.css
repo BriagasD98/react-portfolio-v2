@@ -514,6 +514,13 @@ h2.cardtitle4 {
 }
 
 /* Contact Component Styling END */
+.renav.links {
+  display: flex;
+}
+
+.renav #hidden {
+  display: flex;
+}
 
 .renav button {
   display: none;
@@ -686,8 +693,21 @@ h2.cardtitle4 {
     margin: 20px;
   }
 
-  .renav nav {
+  .renav.links {
     display: none;
+  }
+
+  .renav #hidden {
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    height: 230px;
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 9999;
   }
 
   /* Responsive Navbar END */
