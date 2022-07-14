@@ -692,10 +692,18 @@ h2.cardtitle4 {
     margin: 20px;
     position: relative;
     left: 18px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    font-size: x-large;
   }
 
   .renav .links{
     display: none;
+  }
+
+  .renav .links a {
+    margin-top: -250px;
   }
 
   .renav #hidden {

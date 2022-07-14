@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import '../../../src/App.css'
+import MenuIcon from '@material-ui/icons/Menu'
+import hamburger from '../../Assets/Images/hamburger.png'
 import { Link } from 'react-router-dom'
 
 function Nav() {
@@ -9,7 +11,7 @@ function Nav() {
     <div className='renav'>
       <div className='renav2'>
         <h1 className='header'>DAVID BRIAGAS</h1>
-        <button onClick={()=> setShowLinks(!showLinks)} >Open</button>
+        <button onClick={()=> setShowLinks(!showLinks)} >< MenuIcon /></button>
       </div>
       <div className='renav'>
         <nav className='links' style={{ width: "100%" }} id={showLinks ? "hidden" : ""}>
