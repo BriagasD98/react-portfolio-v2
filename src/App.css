@@ -709,7 +709,7 @@ h2.cardtitle4 {
   .renav #hidden {
     position: absolute;
     left: 0px;
-    top: 80px;
+    top: 70px;
     height: 100%;
     width: 100%;
     backdrop-filter: blur(2px);
@@ -724,6 +724,12 @@ h2.cardtitle4 {
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
+    height: 60px;
+  }
+
+  .header {
+    position: relative;
+    top: -8px;
   }
 
   
