@@ -60,7 +60,7 @@ function Contact() {
                 <h2 className="cardtitle4">Reach Out</h2>
                 <div className='tiles2'>
                     <nav className='iconlist2'>
-                    <a href="https://github.com/BriagasD98">
+                    <a href="mailto:briagasdavid@yahoo.com">
                         <img className='icon5' src={emailIcon} alt="Email" />
                         <span>briagasdavid@yahoo.com</span>
                     </a>
