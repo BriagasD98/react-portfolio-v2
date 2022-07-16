@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-v2/static/css/main.601329ad.css",
+    "main.js": "/react-portfolio-v2/static/js/main.5cd37edd.js",
+    "static/media/cherry-picker.png": "/react-portfolio-v2/static/media/cherry-picker.7f3b9d00e36136bf7a5d.png",
+    "static/media/gopher1.png": "/react-portfolio-v2/static/media/gopher1.860505c67967399cc8b7.png",
+    "static/media/dustin-png.png": "/react-portfolio-v2/static/media/dustin-png.2147f58b3e43de7e9ea0.png",
+    "static/media/davidbheadshot.JPG": "/react-portfolio-v2/static/media/davidbheadshot.af2e96a44fdfd0fbbf01.JPG",
+    "static/media/Social-API.gif": "/react-portfolio-v2/static/media/Social-API.ecdafe771ac3cfb84690.gif",
+    "static/media/cityconnectblue.jpg": "/react-portfolio-v2/static/media/cityconnectblue.86beaea769d6173c483c.jpg",
+    "static/media/Tech-Blog.png": "/react-portfolio-v2/static/media/Tech-Blog.50a5eeef34796465d517.png",
+    "static/media/Employee-Tracker.png": "/react-portfolio-v2/static/media/Employee-Tracker.353d2c078ab00ad54ec6.png",
+    "static/media/gopher-hook.png": "/react-portfolio-v2/static/media/gopher-hook.5317d91056055756c2da.png",
+    "static/media/email-icon.png": "/react-portfolio-v2/static/media/email-icon.34317987671959bc7a3c.png",
+    "static/media/pin.png": "/react-portfolio-v2/static/media/pin.ab61b36106e58e5a554c.png",
+    "static/media/stackoflow.png": "/react-portfolio-v2/static/media/stackoflow.42c211ab95c30216bc42.png",
+    "index.html": "/react-portfolio-v2/index.html",
+    "main.601329ad.css.map": "/react-portfolio-v2/static/css/main.601329ad.css.map",
+    "main.5cd37edd.js.map": "/react-portfolio-v2/static/js/main.5cd37edd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.601329ad.css",
+    "static/js/main.5cd37edd.js"
+  ]
+}
