@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 
-import liQRCode from '../../Assets/Images/DavidB-LI-QR.png'
+import rpv2QRCode from '../../Assets/Images/react-portfolio-v2-qrcode.png'
 import gdocs from '../../Assets/Images/google-docs.png'
 import fileexp from '../../Assets/Images/file-exp2.png'
 
@@ -34,7 +34,7 @@ function Resume() {
       <div className='card3 resume'>
         <div>
           <h2><span>SCAN ME</span> To View Portfolio App On Mobile Device!</h2>
-          <img className='icon3' src={liQRCode} />
+          <img className='icon3' src={rpv2QRCode} />
         </div>
       </div>
 
