@@ -6,15 +6,13 @@ import AnimatedRoutes from './Components/AnimatedRoutes';
 
 function App() {
   return (
-    <Router>
+    <main>
       <div className='container navbar'>
         {/* <h1 className='header'>DAVID BRIAGAS</h1> */}
       <Nav></Nav>
       </div>
       <AnimatedRoutes />
-    {/* <Footer></Footer> */}
-    </Router>
-    
+    </main>
   );
 }
 
