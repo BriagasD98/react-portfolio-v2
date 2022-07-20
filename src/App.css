@@ -525,6 +525,27 @@ h2.cardtitle4 {
 }
 /* Responsive Navbar Styling END */
 
+/* Baseball Animation START */
+.balltrack {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.baseball {
+  width: 30px;
+  height: 30px;
+  border-radius:50%;
+  border: solid black;
+  background-color: red;
+  position: relative;
+  animation-name: baseball;
+  animation-duration: 11s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+/* Baseball Animation END */
+
 @media all and (max-width: 500px) {
   .container2 {
     display: block;
@@ -736,11 +757,11 @@ h2.cardtitle4 {
   /* Responsive Navbar END */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@keyframes baseball {
+  
+  /* Baseball Animation START */
+  0%   {left:3vw; top:0px;}
+  50%  {left:96vw; top:0px;}
+  100% {left:3vw; top:0px;}
+  /* Baseball Animation END */
 }
