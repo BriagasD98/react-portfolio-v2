@@ -537,12 +537,17 @@ h2.cardtitle4 {
   height: 30px;
   border-radius:50%;
   border: solid black;
-  background-color: red;
+  background-color: white;
   position: relative;
   animation-name: baseball;
   animation-duration: 11s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+}
+
+.baseball img {
+  transform: rotate(360deg);
+  animation-iteration-count: infinite;
 }
 /* Baseball Animation END */
 

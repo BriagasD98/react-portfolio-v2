@@ -23,7 +23,9 @@ function Nav() {
         <button onClick={() => setShowLinks(!showLinks)} >Open</button>
       </div>
       <div className='balltrack'>
-        <div className='baseball'>< MenuIcon /></div>
+        <div className='baseball'>
+          
+        </div>
       </div>
       <button onClick={() => setShowLinks(!showLinks)} >Open</button>
     </div>
