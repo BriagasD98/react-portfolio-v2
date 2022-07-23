@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio-v2/static/css/main.601329ad.css",
-    "main.js": "/react-portfolio-v2/static/js/main.f5e1ca32.js",
+    "main.css": "/react-portfolio-v2/static/css/main.54a7374c.css",
+    "main.js": "/react-portfolio-v2/static/js/main.7685710a.js",
     "static/media/cherry-picker.png": "/react-portfolio-v2/static/media/cherry-picker.7f3b9d00e36136bf7a5d.png",
     "static/media/gopher1.png": "/react-portfolio-v2/static/media/gopher1.860505c67967399cc8b7.png",
     "static/media/dustin-png.png": "/react-portfolio-v2/static/media/dustin-png.2147f58b3e43de7e9ea0.png",
@@ -13,13 +13,14 @@
     "static/media/gopher-hook.png": "/react-portfolio-v2/static/media/gopher-hook.5317d91056055756c2da.png",
     "static/media/email-icon.png": "/react-portfolio-v2/static/media/email-icon.34317987671959bc7a3c.png",
     "static/media/pin.png": "/react-portfolio-v2/static/media/pin.ab61b36106e58e5a554c.png",
+    "static/media/bball2.png": "/react-portfolio-v2/static/media/bball2.516f87da7f3c19b7d1cc.png",
     "static/media/stackoflow.png": "/react-portfolio-v2/static/media/stackoflow.42c211ab95c30216bc42.png",
     "index.html": "/react-portfolio-v2/index.html",
-    "main.601329ad.css.map": "/react-portfolio-v2/static/css/main.601329ad.css.map",
-    "main.f5e1ca32.js.map": "/react-portfolio-v2/static/js/main.f5e1ca32.js.map"
+    "main.54a7374c.css.map": "/react-portfolio-v2/static/css/main.54a7374c.css.map",
+    "main.7685710a.js.map": "/react-portfolio-v2/static/js/main.7685710a.js.map"
   },
   "entrypoints": [
-    "static/css/main.601329ad.css",
-    "static/js/main.f5e1ca32.js"
+    "static/css/main.54a7374c.css",
+    "static/js/main.7685710a.js"
   ]
 }
