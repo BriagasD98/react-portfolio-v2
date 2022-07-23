@@ -536,13 +536,11 @@ h2.cardtitle4 {
   width: 30px;
   height: 30px;
   border-radius:50%;
-  border: solid black;
+  border: 1px solid black;
   background-color: white;
   position: relative;
-  animation-name: baseball;
-  animation-duration: 11s;
+  animation: baseball 11s ease-in-out, spin 2.5s linear;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
 }
 
 .baseball img {
@@ -761,7 +759,8 @@ h2.cardtitle4 {
   .baseball {
     width: 25px;
     height: 25px;
-    animation-duration: 7s;
+    animation: baseball 7s ease-in-out, spin 2.5s linear;
+    animation-iteration-count: infinite;
     margin: 4px;
   }
   /* Responsive Navbar END */
@@ -776,7 +775,14 @@ h2.cardtitle4 {
   
   /* Baseball Animation START */
   0%   {left:3vw; top:0px;}
-  50%  {left:96vw; top:0px;}
+  50%  {left:92vw; top:0px;}
   100% {left:3vw; top:0px;}
   /* Baseball Animation END */
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import '../../../src/App.css'
 import MenuIcon from '@material-ui/icons/Menu'
 import Hamburger from '../../Assets/Images/hamburger.png'
+import Bball from '../../Assets/Images/bball2.png'
 import { Link } from 'react-router-dom'
 
 function Nav() {
@@ -23,9 +24,10 @@ function Nav() {
         <button onClick={() => setShowLinks(!showLinks)} >Open</button>
       </div>
       <div className='balltrack'>
-        <div className='baseball'>
+        <img className='baseball' src={Bball} />
+        {/* <div className='baseball'>
           
-        </div>
+        </div> */}
       </div>
       <button onClick={() => setShowLinks(!showLinks)} >Open</button>
     </div>
