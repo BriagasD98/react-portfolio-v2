@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import '../../../src/App.css'
 import MenuIcon from '@material-ui/icons/Menu'
-import Hamburger from '../../Assets/Images/hamburger.png'
 import Bball from '../../Assets/Images/bball2.png'
 import { Link } from 'react-router-dom'
 
@@ -21,15 +20,10 @@ function Nav() {
           <Link to='/contact'> Contact </Link>
           <Link to='/resume'>Resume</Link>
         </nav>
-        <button onClick={() => setShowLinks(!showLinks)} >Open</button>
       </div>
       <div className='balltrack'>
         <img className='baseball' src={Bball} />
-        {/* <div className='baseball'>
-          
-        </div> */}
       </div>
-      <button onClick={() => setShowLinks(!showLinks)} >Open</button>
     </div>
   )
 }

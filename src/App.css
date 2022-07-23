@@ -764,11 +764,6 @@ h2.cardtitle4 {
     margin: 4px;
   }
   /* Responsive Navbar END */
-  /* @keyframes baseball {
-    0%   {left:3vw; top:0px;}
-    50%  {left:80vw; top:0px;}
-    100% {left:3vw; top:0px;}
-  } */
 }
 
 @keyframes baseball {
