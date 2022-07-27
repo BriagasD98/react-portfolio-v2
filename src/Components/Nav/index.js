@@ -42,6 +42,14 @@ function Nav() {
       <div className='balltrack'>
         <img className='baseball' src={Bball} />
       </div>
+      <div>
+        <nav className={switchToggled ? 'mobile-nav' : 'mobile-nav is-active'}>
+          <Link to='/about'> About </Link>
+          <Link to='/portfolio'> Portfolio </Link>
+          <Link to='/contact'> Contact </Link>
+          <Link to='/resume'>Resume</Link>
+        </nav>
+      </div>
     </div>
   )
 }

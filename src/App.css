@@ -520,9 +520,9 @@ h2.cardtitle4 {
   display: flex;
 }
 
-/* .renav button {
+.renav button {
   display: none;
-} */
+}
 
 .hamburger {
   position: relative;
@@ -533,6 +533,7 @@ h2.cardtitle4 {
   border: none;
   background: none;
   outline: none;
+  z-index: 99;
 }
 
 .hamburger .bar, .hamburger:after, .hamburger:before {
@@ -556,6 +557,36 @@ h2.cardtitle4 {
 .hamburger.is-active .bar {
   opacity: 0;
 }
+
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  display: block;
+  z-index: 98;
+  backdrop-filter: blur(2px);
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-top: 93px;
+  transition: 0.4s;
+}
+
+.mobile-nav.is-active {
+  left: 100%;
+  transition: 0.4s;
+}
+
+.mobile-nav a {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 16px;
+  text-align: center;
+  padding: 12px 16px;
+}
+
+
 /* Responsive Navbar Styling END */
 
 /* Baseball Animation START */
@@ -803,7 +834,7 @@ h2.cardtitle4 {
   
   /* Baseball Animation START */
   0%   {left:3vw; top:0px;}
-  50%  {left:92vw; top:0px;}
+  50%  {left:91vw; top:0px;}
   100% {left:3vw; top:0px;}
   /* Baseball Animation END */
 }
