@@ -13,12 +13,6 @@ function Nav() {
     console.log(switchToggled);
   }
 
-  // const menu_btn = document.querySelector('.hamburger');
-
-  // menu_btn.addEventListener('click', function () {
-  //   menu_btn.classList.toggle('is-active')
-  // })
-
   return (
     <div className='renav'>
       <div className='renav2'>
@@ -28,9 +22,6 @@ function Nav() {
         </button>
         {/* <button onClick={()=> setShowLinks(!showLinks)} >< MenuIcon /></button> */}
       </div>
-      {/* <button onClick={ToggleSwitch} className={switchToggled ? 'ClassToggled hamburger' : "ClassNotToggled hamburger is-active"}>
-        <div className='bar'></div>
-      </button> */}
       <div className='renav'>
         <nav className='links' style={{ width: "100%" }} id={showLinks ? "hidden" : ""}>
           <Link to='/about'> About </Link>
