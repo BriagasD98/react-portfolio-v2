@@ -6,6 +6,18 @@ import { Link } from 'react-router-dom'
 
 function Nav() {
   const [showLinks, setShowLinks] = useState(false);
+  const [switchToggled, setSwitchToggled] = useState(false);
+
+  const ToggleSwitch = () => {
+    switchToggled ? setSwitchToggled(false) : setSwitchToggled(true);
+    console.log(switchToggled);
+  }
+
+  // const menu_btn = document.querySelector('.hamburger');
+
+  // menu_btn.addEventListener('click', function () {
+  //   menu_btn.classList.toggle('is-active')
+  // })
 
   return (
     <div className='renav'>
@@ -13,7 +25,7 @@ function Nav() {
         <h1 className='header'>DAVID BRIAGAS</h1>
         {/* <button onClick={()=> setShowLinks(!showLinks)} >< MenuIcon /></button> */}
       </div>
-      <button className='hamburger is-active'>
+      <button onClick={ToggleSwitch} className={switchToggled ? 'ClassToggled hamburger' : "ClassNotToggled hamburger is-active"}>
           <div className='bar'></div>
         </button>
       <div className='renav'>
