@@ -545,9 +545,17 @@ h2.cardtitle4 {
   transition: 0.4s;
 }
 
-/* .hamburger.is-active, .hamburger:after {
-  transform: rotate;
-} */
+.hamburger.is-active:before {
+  transform: rotate(-45deg) translate(-8px, 6px);
+}
+
+.hamburger.is-active:after {
+  transform: rotate(45deg) translate(-9px, -8px);
+}
+
+.hamburger.is-active .bar {
+  opacity: 0;
+}
 /* Responsive Navbar Styling END */
 
 /* Baseball Animation START */

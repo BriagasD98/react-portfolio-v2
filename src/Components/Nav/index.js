@@ -13,7 +13,7 @@ function Nav() {
         <h1 className='header'>DAVID BRIAGAS</h1>
         {/* <button onClick={()=> setShowLinks(!showLinks)} >< MenuIcon /></button> */}
       </div>
-      <button className='hamburger'>
+      <button className='hamburger is-active'>
           <div className='bar'></div>
         </button>
       <div className='renav'>
