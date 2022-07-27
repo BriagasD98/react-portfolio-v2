@@ -23,11 +23,14 @@ function Nav() {
     <div className='renav'>
       <div className='renav2'>
         <h1 className='header'>DAVID BRIAGAS</h1>
+        <button onClick={ToggleSwitch} className={switchToggled ? 'ClassToggled hamburger' : "ClassNotToggled hamburger is-active"}>
+        <div className='bar'></div>
+        </button>
         {/* <button onClick={()=> setShowLinks(!showLinks)} >< MenuIcon /></button> */}
       </div>
-      <button onClick={ToggleSwitch} className={switchToggled ? 'ClassToggled hamburger' : "ClassNotToggled hamburger is-active"}>
-          <div className='bar'></div>
-        </button>
+      {/* <button onClick={ToggleSwitch} className={switchToggled ? 'ClassToggled hamburger' : "ClassNotToggled hamburger is-active"}>
+        <div className='bar'></div>
+      </button> */}
       <div className='renav'>
         <nav className='links' style={{ width: "100%" }} id={showLinks ? "hidden" : ""}>
           <Link to='/about'> About </Link>
