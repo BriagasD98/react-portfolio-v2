@@ -520,9 +520,34 @@ h2.cardtitle4 {
   display: flex;
 }
 
-.renav button {
+/* .renav button {
   display: none;
+} */
+
+.hamburger {
+  position: relative;
+  display: block;
+  width: 35px;
+  cursor: pointer;
+  appearance: none;
+  border: none;
+  background: none;
+  outline: none;
 }
+
+.hamburger .bar, .hamburger:after, .hamburger:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0px;
+  transition: 0.4s;
+}
+
+/* .hamburger.is-active, .hamburger:after {
+  transform: rotate;
+} */
 /* Responsive Navbar Styling END */
 
 /* Baseball Animation START */

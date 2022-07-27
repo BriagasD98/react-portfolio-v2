@@ -11,8 +11,11 @@ function Nav() {
     <div className='renav'>
       <div className='renav2'>
         <h1 className='header'>DAVID BRIAGAS</h1>
-        <button onClick={()=> setShowLinks(!showLinks)} >< MenuIcon /></button>
+        {/* <button onClick={()=> setShowLinks(!showLinks)} >< MenuIcon /></button> */}
       </div>
+      <button className='hamburger'>
+          <div className='bar'></div>
+        </button>
       <div className='renav'>
         <nav className='links' style={{ width: "100%" }} id={showLinks ? "hidden" : ""}>
           <Link to='/about'> About </Link>
