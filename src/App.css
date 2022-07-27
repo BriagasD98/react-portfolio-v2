@@ -548,10 +548,12 @@ h2.cardtitle4 {
 
 .hamburger.is-active:before {
   transform: rotate(-45deg) translate(-8px, 6px);
+  width: 120%
 }
 
 .hamburger.is-active:after {
   transform: rotate(45deg) translate(-9.5px, -8px);
+  width: 120%
 }
 
 .hamburger.is-active .bar {
@@ -566,7 +568,7 @@ h2.cardtitle4 {
   min-height: 100vh;
   display: block;
   z-index: 98;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(5px);
   background-color: rgba(0, 0, 0, 0.6);
   padding-top: 93px;
   transition: 0.4s;

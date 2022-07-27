@@ -23,7 +23,7 @@ function Nav() {
     <div className='renav'>
       <div className='renav2'>
         <h1 className='header'>DAVID BRIAGAS</h1>
-        <button onClick={ToggleSwitch} className={switchToggled ? 'ClassToggled hamburger' : "ClassNotToggled hamburger is-active"}>
+        <button onClick={ToggleSwitch} className={switchToggled ? 'ClassToggled hamburger is-active' : "ClassNotToggled hamburger"}>
         <div className='bar'></div>
         </button>
         {/* <button onClick={()=> setShowLinks(!showLinks)} >< MenuIcon /></button> */}
