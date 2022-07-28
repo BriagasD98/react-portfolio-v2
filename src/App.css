@@ -544,8 +544,8 @@ h2.cardtitle4 {
   background-color: white;
   margin: 6px 0px;
   -webkit-margin: 6px 0px;
-  transition: 0.4s;
-  -webkit-transition: 0.4s;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
 }
 
 .hamburger.is-active:before {
@@ -790,6 +790,12 @@ h2.cardtitle4 {
     color: white;
     border: none;
     font-size: x-large;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+  }
+
+  .renav button {
+    display: block;
   }
 
   .renav .links{
@@ -833,6 +839,51 @@ h2.cardtitle4 {
     animation-iteration-count: infinite;
     margin: 4px;
   }
+
+  /* .hamburger {
+    display: block;
+  } */
+
+  .hamburger {
+    position: relative;
+    display: block;
+    width: 35px;
+    cursor: pointer;
+    appearance: none;
+    border: none;
+    background: none;
+    outline: none;
+    z-index: 99;
+  }
+  
+  .hamburger .bar, .hamburger:after, .hamburger:before {
+    content: '';
+    display: flex;
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0px;
+    -webkit-margin: 6px 0px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .hamburger.is-active:before {
+    transform: rotate(-45deg) translate(-8px, 6px);
+    -webkit-transform: rotate(-45deg) translate(-8px, 6px);
+    width: 120%
+  }
+  
+  .hamburger.is-active:after {
+    transform: rotate(45deg) translate(-9.5px, -8px);
+    -webkit-transform: rotate(45deg) translate(-9.5px, -8px);
+    width: 120%
+  }
+  
+  .hamburger.is-active .bar {
+    opacity: 0;
+  }
+
   /* Responsive Navbar END */
 }
 
