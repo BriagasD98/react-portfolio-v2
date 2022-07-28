@@ -846,7 +846,7 @@ h2.cardtitle4 {
 
   .hamburger {
     position: relative;
-    display: block;
+    display: -webkit-box;
     width: 35px;
     cursor: pointer;
     appearance: none;
@@ -858,7 +858,7 @@ h2.cardtitle4 {
   
   .hamburger .bar, .hamburger:after, .hamburger:before {
     content: '';
-    display: flex;
+    display: -webkit-flex;
     width: 100%;
     height: 5px;
     background-color: white;
